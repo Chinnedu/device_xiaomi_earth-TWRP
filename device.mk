@@ -40,7 +40,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl.recovery
+    android.hardware.boot@1.1-impl.recovery \
+    bootctrl.mt6768
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -55,6 +56,3 @@ TARGET_RECOVERY_DEVICE_MODULES += \
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
-
-PRODUCT_PACKAGES += \
-    bootctrl.mt6768
