@@ -20,9 +20,6 @@ PRODUCT_SHIPPING_API_LEVEL := 32
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Enable project quotas and casefolding for emulated storage without sdcardfs
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # A/B
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
