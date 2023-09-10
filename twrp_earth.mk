@@ -28,6 +28,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from earth device
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := earth
 PRODUCT_NAME := twrp_earth
 PRODUCT_BRAND := Redmi
