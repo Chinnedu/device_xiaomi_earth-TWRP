@@ -38,7 +38,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES_DEBUG += \
     bootctrl.mt6768
 
 # fastbootd
