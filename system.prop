@@ -5,3 +5,6 @@ ro.hardware.kmsetkey=beanpod
 ro.boot.dynamic_partitions=true
 ro.adb.secure=0
 fbe.metadata.wrappedkey=true
+ro.crypto.metadata.enabled=true
+ro.crypto.support_metadata_encrypt=true
+ro.crypto.uses_fs_ioc_add_encryption_key=true
