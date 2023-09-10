@@ -74,5 +74,5 @@
 
 # otp, pi_img, md1dsp
 
-## Internal storage
+# Internal storage
 /storage            f2fs      /data/media/0
