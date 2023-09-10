@@ -73,3 +73,6 @@
 /usbotg                 auto    /dev/block/sdd1         /dev/block/sdd                  flags=display="Usb-Otg";storage;removable;wipeingui;backup=0
 
 # otp, pi_img, md1dsp
+
+## Internal storage
+/storage            f2fs      /data/media/0
